@@ -1,0 +1,19 @@
+{
+  "name": "teste_protractor_cucumberJS",
+  "version": "1.0.0",
+  "keywords": [
+    "teste_protractor_cucumberJS",
+    "protractor",
+    "cucumber"
+  ],
+  "author": "Lucas Fraga",
+  "license": "ISC",
+  "devDependencies": {
+    "protractor": "^5.3.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^4.0.0",
+    "cucumber-html-reporter": "^4.0.2",
+    "protractor-cucumber-framework": "^4.2.0"
+  }
+}
