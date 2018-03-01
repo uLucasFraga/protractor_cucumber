@@ -21,11 +21,8 @@ When("eu fizer cálculos de adição", async function () {
 
 Then("devo visualizar o resultado da adição", async function () {
     // await browser.wait(ExpectedConditions.visibilityOf(page.result), 6000);
-    // await expect(page.result.getText())
-    //         .to.eventually.equal('30')
-
-    expect(page.result.getText()).to.equal('30')
-
+    await expect(page.result.getText())
+            .to.eventually.equal('30')
 });
 
 When("eu fizer novos cálculos de adição", async function () {
