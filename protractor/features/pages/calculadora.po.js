@@ -1,6 +1,5 @@
 'use strict'
 // protractor/features/pages/calculadoraPage.js
-const { element } = require('protractor')
 
 class CalculadoraPage {
     constructor() {

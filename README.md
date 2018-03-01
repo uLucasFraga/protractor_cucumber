@@ -25,7 +25,7 @@ _para rodar os teste => Clonar o projeto.
 
 _instalar as dependencias do projeto: npm install
 
-_através do terminal utilizar o comando: protractor cucumber.conf.js
+_através do terminal utilizar o comando: protractor protractor.conf.js
 
 _os results do teste ficam dentro da pasta config.
 

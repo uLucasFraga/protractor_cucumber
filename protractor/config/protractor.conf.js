@@ -1,4 +1,4 @@
-// protractor/config/cucumber.conf.js
+// protractor/config/protractor.conf.js
 
 exports.config = {
 
