@@ -1,18 +1,12 @@
 // protractor/features/step_definitions/calculadora.step.js
-
 const { Given, When, Then } = require('cucumber')
 const expect = require('chai').use(require("chai-as-promised")).expect;
-const { browser, ExpectedConditions } = require('protractor')
 
 const CalculadoraPage = require('../pages/calculadora.po.js')
 const page = new CalculadoraPage();
 
 Given('que eu esteja na tela de cálculos', async function () {
     await page.visit();
-    await browser.getTitle().then(title => {
-        expect(title)
-            .to.equal('Super Calculator')
-    });
 });
 
 When("eu fizer cálculos de adição", async function () {
@@ -20,7 +14,6 @@ When("eu fizer cálculos de adição", async function () {
 });
 
 Then("devo visualizar o resultado da adição", async function () {
-    // await browser.wait(ExpectedConditions.visibilityOf(page.result), 6000);
     await expect(page.result.getText())
             .to.eventually.equal('30')
 });
