@@ -9,7 +9,7 @@
   "author": "Lucas Fraga",
   "license": "ISC",
   "devDependencies": {
-    "protractor": "^5.3.0",
+    "protractor": "^7.0.0",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
     "cucumber": "^4.0.0",
